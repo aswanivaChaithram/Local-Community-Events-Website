@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center py-2 px-8 md:px-12
-    lg:px-20 xl:px-[100px] w-full shadow-md">
+    lg:px-20 xl:px-[100px] w-full shadow-md bg-white-100">
       {/* Left side */}
       <Link to="/" className="flex items-center gap-2">
-        <img src={logo} alt="Logo" className="w-12 h-12 md:w-14 md:h-14" />
-        <span className="font-bold text-3xl md:text-4xl">EventNest</span>
+        <img src={logo} alt="Logo" className="w-10 h-10 sm:w-14 sm:h-14" />
+        <span className="font-bold text-2xl md:text-4xl"><span className='text-green-600'>Event</span>Nest</span>
       </Link>
 
       {/* Right side: Navigation links */}
