@@ -1,8 +1,15 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path='/' />
+      </Routes>
+    </div>
   )
 }
 
