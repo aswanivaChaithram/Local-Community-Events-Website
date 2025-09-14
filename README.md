@@ -1,12 +1,82 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# EventNest: Local Community Events Website
 
-Currently, two official plugins are available:
+>A responsive web app for discovering, joining, and managing local community events. Built with React, Vite, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse and filter upcoming events
+- View detailed event information
+- RSVP and manage your confirmed events
+- Responsive design for all devices
+- Dynamic navigation and badge count
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+#### 1. Install Node.js
+
+- Download and install Node.js from [nodejs.org](https://nodejs.org/).
+- After installation, verify by running in PowerShell:
+	```powershell
+	node -v
+	npm -v
+	```
+
+#### 2. Clone the Repository
+
+```powershell
+git clone https://github.com/aswanivaChaithram/Local-Community-Events-Website.git
+cd eventnest/frontend
+```
+
+#### 3. Install Dependencies
+
+```powershell
+npm install
+```
+
+#### 4. Start the Development Server
+
+```powershell
+npm run dev
+```
+
+Open [http://localhost:5173] in your browser.
+
+---
+
+## Build for Production
+
+```powershell
+npm run build
+```
+
+## Preview Production Build
+
+```powershell
+npm run preview
+```
+
+---
+
+## Project Structure
+
+- `src/Components`: Reusable UI components (Navbar, Events, Footer, etc.)
+- `src/Pages`: Main pages (Home, EventDetails, Upcoming)
+- `src/Context`: Context API for confirmed events
+- `src/assets`: Images and event data
+
+---
+
+## Customization
+
+- Add/edit events in `src/assets/data.js`
+- Update styles using Tailwind CSS classes
+
+---
