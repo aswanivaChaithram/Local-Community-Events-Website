@@ -80,3 +80,9 @@ npm run preview
 - Update styles using Tailwind CSS classes
 
 ---
+<img width="1902" height="862" alt="Screenshot (212)" src="https://github.com/user-attachments/assets/314f03c6-297d-400e-976a-b7f61b7df34f" />
+<img width="1896" height="861" alt="Screenshot (213)" src="https://github.com/user-attachments/assets/acd2a6a5-a8a2-4ffd-9ad2-bdd4a419c838" />
+<img width="1900" height="868" alt="Screenshot (214)" src="https://github.com/user-attachments/assets/b51848e8-206a-4606-a3df-7c6ca80dc886" />
+<img width="1896" height="861" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/a93c7989-63c0-4bb9-868f-9d5fa8953d7c" />
+<img width="1898" height="854" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/aee4b1c0-b0fc-4910-9bd5-b1f7924d532c" />
+<img width="1920" height="862" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/8865c8fd-0117-4616-9318-2594316c312d" />
