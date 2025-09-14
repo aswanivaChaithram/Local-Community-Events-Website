@@ -32,7 +32,7 @@
 
 ```powershell
 git clone https://github.com/aswanivaChaithram/Local-Community-Events-Website.git
-cd eventnest/frontend
+cd Local-Community-Events-Website/frontend
 ```
 
 #### 3. Install Dependencies
