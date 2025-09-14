@@ -1,25 +1,3 @@
-import fitness1 from '../assets/fitness1.jpeg';
-import fitness2 from '../assets/fitness2.jpeg';
-import music1 from '../assets/music1.jpeg';
-import music2 from '../assets/music2.jpeg';
-import music3 from '../assets/music3.jpeg';
-import meetup1 from '../assets/meetup1.jpeg';
-import meetup2 from '../assets/meetup2.jpeg';
-import meetup3 from '../assets/meetup3.jpeg';
-import meetup4 from '../assets/meetup4.jpeg';
-import workshop1 from '../assets/work1.jpeg';
-import workshop2 from '../assets/work2.jpeg';
-import workshop3 from '../assets/work3.jpeg';
-import workshop4 from '../assets/work4.jpeg';
-import workshop5 from '../assets/work5.jpeg';
-import sports1 from '../assets/sports1.jpeg';
-import sports2 from '../assets/sports2.jpeg';
-import sports3 from '../assets/sports3.jpeg';
-import social from '../assets/social.jpeg';
-import ente1 from '../assets/ente1.jpeg';
-import ente2 from '../assets/ente2.jpeg';
-import ente3 from '../assets/ente3.jpeg';
-
 const eventsData = {
   "events": [
     {
@@ -30,7 +8,7 @@ const eventsData = {
       "location": "Bangalore",
       "host": "Yoga with Anu",
       "description": "Join us for a peaceful yoga session in Cubbon Park.",
-      "image": fitness2
+      "image": "/src/assets/fitness2.jpeg"
     },
     {
       "id": 2,
@@ -40,7 +18,7 @@ const eventsData = {
       "location": "Mumbai",
       "host": "Strings Academy",
       "description": "Learn the basics of guitar playing with hands-on guidance.",
-        "image": music1
+        "image": "/src/assets/music1.jpeg"
     },
     {
       "id": 3,
@@ -50,7 +28,7 @@ const eventsData = {
       "location": "Delhi",
       "host": "Delhi Entrepreneurs Club",
       "description": "Meet fellow entrepreneurs, pitch ideas, and network.",
-        "image": meetup3
+        "image": "/src/assets/meetup3.jpeg"
     },
     {
       "id": 4,
@@ -60,7 +38,7 @@ const eventsData = {
       "location": "Hyderabad",
       "host": "Marketing Gurus",
       "description": "Learn the latest trends and strategies in digital marketing.",
-        "image": workshop4
+        "image": "/src/assets/work4.jpeg"
     },
     {
       "id": 5,
@@ -70,7 +48,7 @@ const eventsData = {
       "location": "Bangalore",
       "host": "Adventure Trails",
       "description": "An early morning trek to Nandi Hills followed by breakfast.",
-        "image": sports3
+        "image": "/src/assets/sports3.jpeg"
     },
     {
       "id": 6,
@@ -80,7 +58,7 @@ const eventsData = {
       "location": "Pune",
       "host": "Creative Hands",
       "description": "Fun and educational art activities for children aged 6–12.",
-      "image": workshop5
+      "image": "/src/assets/work5.jpeg"
     },
     {
       "id": 7,
@@ -90,7 +68,7 @@ const eventsData = {
       "location": "Chennai",
       "host": "Lens Lovers Club",
       "description": "Explore the city while improving your photography skills.",
-      "image": meetup4
+      "image": "/src/assets/meetup4.jpeg"
     },
     {
       "id": 8,
@@ -100,7 +78,7 @@ const eventsData = {
       "location": "Kolkata",
       "host": "Chef Maria",
       "description": "Learn to cook authentic Italian dishes from scratch.",
-      "image": workshop1
+      "image": "/src/assets/work1.jpeg"
     },
     {
       "id": 9,
@@ -110,7 +88,7 @@ const eventsData = {
       "location": "Goa",
       "host": "Goa Jazz Club",
       "description": "An evening of live jazz performances by local musicians.",
-      "image": music3
+      "image": "/src/assets/music3.jpeg"
     },
     {
       "id": 10,
@@ -120,7 +98,7 @@ const eventsData = {
       "location": "Mumbai",
       "host": "Eco Warriors",
       "description": "Join us in cleaning up Juhu Beach and making a difference.",
-      "image": social
+      "image": "/src/assets/social.jpeg"
     },
     {
       "id": 11,
@@ -130,7 +108,7 @@ const eventsData = {
       "location": "Bangalore",
       "host": "Laugh Out Loud",
       "description": "A night full of laughter with top stand-up comedians.",
-      "image": ente1
+      "image": "/src/assets/ente1.jpeg"
     },
     {
       "id": 12,
@@ -140,7 +118,7 @@ const eventsData = {
       "location": "Delhi",
       "host": "Delhi Chess Club",
       "description": "Compete with fellow chess enthusiasts for exciting prizes.",
-      "image": sports2
+      "image": "/src/assets/sports2.jpeg"
     },
     {
       "id": 13,
@@ -150,7 +128,7 @@ const eventsData = {
       "location": "Rishikesh",
       "host": "Peaceful Minds",
       "description": "A weekend retreat to practice mindfulness and meditation.",
-      "image": fitness1
+      "image": "/src/assets/fitness1.jpeg"
     },
     {
       "id": 14,
@@ -160,7 +138,7 @@ const eventsData = {
       "location": "Pune",
       "host": "TechLearn Hub",
       "description": "Understand the basics of blockchain and its applications.",
-      "image": workshop2
+      "image": "/src/assets/work2.jpeg"
     },
     {
       "id": 15,
@@ -170,7 +148,7 @@ const eventsData = {
       "location": "Jaipur",
       "host": "Nature Explorers",
       "description": "Join us to spot and learn about local bird species.",
-      "image": meetup1
+      "image": "/src/assets/meetup1.jpeg"
     },
     {
       "id": 16,
@@ -180,7 +158,7 @@ const eventsData = {
       "location": "Chandigarh",
       "host": "Words & Verses",
       "description": "An evening for poets to share their work with the community.",
-      "image": ente2
+      "image": "/src/assets/ente2.jpeg"
     },
     {
       "id": 17,
@@ -190,7 +168,7 @@ const eventsData = {
       "location": "Ahmedabad",
       "host": "Green Thumbs",
       "description": "Learn how to start and maintain your own home garden.",
-      "image": workshop3
+      "image": "/src/assets/work3.jpeg"
     },
     {
       "id": 18,
@@ -200,7 +178,7 @@ const eventsData = {
       "location": "Kochi",
       "host": "Run for Cause",
       "description": "Participate in a marathon to raise funds for charity.",
-      "image": sports1
+      "image": "/src/assets/sports1.jpeg"
     },
     {
       "id": 19,
@@ -210,7 +188,7 @@ const eventsData = {
       "location": "Bangalore",
       "host": "Global Friends",
       "description": "Practice languages and make friends from different cultures.",
-      "image": meetup2
+      "image": "/src/assets/meetup2.jpeg"
     },
     {
       "id": 20,
@@ -220,7 +198,7 @@ const eventsData = {
       "location": "Mumbai",
       "host": "Cinephiles Club",
       "description": "An evening of short films by independent filmmakers.",
-      "image": ente3
+      "image": "/src/assets/ente3.jpeg"
     }
   ]
 };

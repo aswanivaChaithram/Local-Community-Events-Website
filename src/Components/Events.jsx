@@ -21,11 +21,13 @@ const Events = () => {
   });
 
   return (
-    <div className="px-10 sm:px-12 md:px-12 lg:px-20 xl:px-[100px] py-10">
-      <h2 className="text-2xl font-bold mb-6 text-left">Explore our Events</h2>
+    <div className="px-10 sm:px-12 md:px-12 lg:px-20 xl:px-[100px] pb-16"
+    id='events-section'>
+      <h2 className="text-3xl md:text-4xl font-bold mb-6 text-left lg:mt-20">
+        Explore our Events</h2>
 
       {/* Filters Section */}
-      <div className="flex flex-wrap gap-4 mb-8">
+      <div className="flex flex-wrap gap-4 mb-8 mt-10">
         
         {/* Type Filter */}
         <select
